@@ -5,12 +5,12 @@
     <meta name="description" content="Sovenir Bambu - Anyaman Bambu untuk Hunian Anda">
     <meta name="keywords" content="anyaman bambu, kerajinan tangan, dekorasi bambu, produk bambu, koleksi bambu">
     <meta name="author" content="Sovenir Bambu">
-
+    
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
     <link rel="apple-touch-icon" href="{{ asset('images/apple-touch-icon.png') }}">
 
-    <title>{{ $title ?? 'Sovenir Bambu - Anyaman Bambu' }}</title>
+    <title>Sovenir Bambu - Anyaman Bambu</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,10 +34,7 @@
     <!-- GSAP for Advanced Animations -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
-    <!-- Custom Styles for your app (if any) -->
-    <link rel="stylesheet" href="{{ mix('dist/assets/app.css') }}">
-
+    <link rel="stylesheet" href="style.css">
     <!-- Base Styles -->
     <style>
         /* Smooth Scroll Behavior */

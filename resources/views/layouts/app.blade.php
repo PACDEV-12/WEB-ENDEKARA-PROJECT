@@ -3,7 +3,7 @@
 <head>
     @include('layouts.partials.head')
     <title>{{ $title ?? 'Sovenir Anyaman Bambu' }}</title>
-    <link rel="stylesheet" href="{{ vite('assets/app-179954eb.css') }}">
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -214,8 +214,5 @@
             });
         });
     </script>
-     <!-- Vite JS (Tambahkan di sini) -->
-    <!-- Skrip JS yang sudah terkompilasi -->
-    <script src="{{ vite('assets/app-1ca61c52.js') }}"></script>
 </body>
 </html>
